@@ -134,8 +134,8 @@ a {
   background-color: var(--r);
   color: var(--w);
   text-transform: uppercase;
-  padding: 1rem;
-  font-size: 1.5rem;
+  padding: .5rem;
+  font-size: 1.35rem;
 }
 
 .mextra {
