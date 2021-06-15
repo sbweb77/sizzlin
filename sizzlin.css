@@ -168,11 +168,14 @@ a {
   font-weight: bold;
   color: var(--r);
 }
+
+/*
 .num::before {
   content: "#";
   vertical-align: super;
   font-size: 0.5rem;
 }
+*/
 
 .item {
   max-width: fit-content;
@@ -221,11 +224,13 @@ a {
   padding: 0 0.5rem 0 0;
 }
 
+/*
 .price::before {
   content: "$";
   vertical-align: super;
   font-size: 0.75rem;
 }
+*/
 
 .pics1,
 .pics2,
