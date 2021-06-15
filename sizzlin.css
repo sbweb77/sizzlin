@@ -319,7 +319,8 @@ a {
   display: flex;
   justify-content: left;
   height: 72vh;
-  padding: 2rem;
+  padding: 0rem;
+  margin:0;
   }
 
   .logobg img{
@@ -332,7 +333,7 @@ a {
     max-width: 33%;
     height: auto;
     margin: 1.5rem;
-    padding: 1rem;
+    padding: 0rem;
     border-radius: 0 0 5rem 5rem;
   }
 
