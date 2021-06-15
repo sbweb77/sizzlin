@@ -290,6 +290,8 @@ a {
 }
 
 @media only screen and (min-width: 640px) {
+
+  /*
   .logobg {
     background-image: url(img/butcher.jpg);
     background-size: cover;
@@ -308,6 +310,30 @@ a {
     max-width: 33%;
     height: 100%;
     padding: 2rem;
+  }
+  */
+
+  .logobg{
+    background-image: url(img/butcher.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  height: 72vh;
+  padding: 2rem;
+  }
+
+  .logobg img{
+    display: inline-block;
+    background-image:     linear-gradient(
+      rgba(81, 0, 8, 0.5),
+      rgba(81, 0, 8, 0.5)
+    );
+    min-width: 480px;
+    max-width: 33%;
+    height: auto;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 0 0 5rem 5rem;
   }
 
   .colorbar1 {
