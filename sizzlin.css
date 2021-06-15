@@ -113,6 +113,8 @@ a {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
+
+  padding:0rem;
 }
 
 .colholder ::selection {
@@ -155,12 +157,13 @@ a {
 }
 
 .menu li {
-  flex: 24;
+  /* flex: 24;*/
   list-style: none;
   line-height: 1.25rem;
 }
 
 .num {
+  flex:1;
   max-width: min-content;
   margin-right: 3px;
   padding-right: .25rem;
@@ -176,6 +179,7 @@ a {
 }
 
 .item {
+  flex:5;
   max-width: fit-content;
   text-align: left;
 }
@@ -209,6 +213,7 @@ a {
 }
 
 .price {
+  flex:3;
   max-width: min-content;
   text-align: right;
   align-self: center;
