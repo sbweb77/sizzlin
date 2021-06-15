@@ -104,7 +104,7 @@ a {
 .colholder {
   column-count: 1;
   min-width: max-content;
-  padding: 0.25rem;
+ 
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.85),
       rgba(255, 255, 255, 0.85)
@@ -169,13 +169,12 @@ a {
   color: var(--r);
 }
 
-/*
+
 .num::before {
   content: "#";
   vertical-align: super;
   font-size: 0.5rem;
 }
-*/
 
 .item {
   max-width: fit-content;
@@ -188,13 +187,6 @@ a {
   background-position: center;
 }
 
-.menuimg {
-  object-fit: cover;
-  padding: 0;
-  margin: 0;
-  width: 100vw;
-  height: auto;
-}
 
 .specials {
   outline: 2px solid var(--g);
@@ -224,13 +216,13 @@ a {
   padding: 0 0.5rem 0 0;
 }
 
-/*
+
 .price::before {
   content: "$";
   vertical-align: super;
   font-size: 0.75rem;
 }
-*/
+
 
 .pics1,
 .pics2,
