@@ -151,12 +151,11 @@ a {
   display: flex;
   flex-wrap: wrap;
   padding: 0rem;
-  margin: 0.75rem;
   text-transform: uppercase;
 }
 
 .menu li {
-  flex: 10;
+  flex: 24;
   list-style: none;
   line-height: 1.25rem;
 }
