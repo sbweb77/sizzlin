@@ -1,0 +1,414 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&family=Vast+Shadow&family=Arvo&display=swap");
+
+:root {
+  --g: rgb(14, 63, 1);
+  --r: rgb(81, 0, 8);
+  --g1: rgb(37, 37, 37);
+  --w: rgba(255, 255, 255, 0.95);
+  --wa: rgba(255, 255, 255, 0.25);
+}
+
+body {
+  font-family: "Arvo", serif;
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 0rem;
+  font-weight: 400;
+  color: var(--w);
+  padding: 1rem;
+}
+
+a {
+  color: var(--w);
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 1.125rem;
+  margin: 0rem;
+  padding: 0;
+  font-weight: 300;
+  color: var(--w);
+  padding: 1rem;
+}
+
+h5 {
+  font-size: 1.75rem;
+  margin: 0rem;
+  padding: 0;
+  font-weight: 400;
+  color: var(--w);
+  padding: 1rem;
+  text-decoration: underline;
+}
+
+.green {
+  background-color: var(--g);
+  color: var(--w);
+}
+
+.white {
+  background-color: var(--w);
+}
+
+.red {
+  background-color: var(--r);
+  color: var(--w);
+}
+
+.logobg {
+  background-image: url(img/woodpanel.webp);
+  background-size: cover;
+  display: flex;
+  height: 66vh;
+  padding: 2rem;
+}
+
+.logobg img {
+  object-fit: contain;
+  max-width: 640px;
+  min-height: 240px;
+}
+
+.tagline {
+  font-family: "Cairo", sans-serif;
+  color: var(--r);
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+  margin: 0rem;
+}
+
+.heading {
+  background-image: url(img/slashes.png);
+  background-repeat: repeat-x;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  margin: 0rem;
+}
+
+.heading h2 {
+  font-size: 3rem;
+  font-family: "Vast Shadow", cursive;
+  font-weight: lighter;
+  max-width: max-content;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  margin: 0rem;
+}
+
+.heading p {
+  display: flex;
+}
+
+.colholder {
+  column-count: 1;
+  min-width: max-content;
+  padding: 0.25rem;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85)
+    ),
+    url(img/menuplate.webp);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.colholder ::selection {
+  background-color: var(--r);
+  color: var(--w);
+}
+
+.section {
+  min-width: max-content;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  padding: 0%;
+  margin: 0%;
+  padding-bottom: 0.25rem;
+}
+
+.mtitle {
+  background-color: var(--r);
+  color: var(--w);
+  text-transform: uppercase;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0rem;
+  margin: 0.75rem;
+  text-transform: uppercase;
+}
+
+.menu li {
+  flex-grow: 1;
+  list-style: none;
+  line-height: 1.25rem;
+}
+
+.num {
+  max-width: min-content;
+  margin-right: 3px;
+  font-weight: bold;
+  color: var(--r);
+}
+.num::before {
+  content: "#";
+  vertical-align: super;
+  font-size: 0.5rem;
+}
+
+.item {
+  max-width: fit-content;
+  text-align: left;
+}
+.dash {
+  background-image: url(img/menudash.png);
+  background-repeat: repeat-x;
+  background-position: center;
+}
+
+.menuimg {
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: auto;
+}
+
+.specials {
+  outline: 2px solid var(--g);
+}
+
+.specials .dash {
+  background-image: url(img/menudash-w.png);
+  background-position: center;
+}
+
+.specials .num {
+  color: var(--g);
+}
+
+.specials .mtitle {
+  background-color: var(--g);
+}
+
+.sym {
+  max-width: 2rem;
+}
+
+.price {
+  max-width: min-content;
+  text-align: right;
+  align-self: center;
+  padding: 0 0.5rem 0 0;
+}
+
+.price::before {
+  content: "$";
+  vertical-align: super;
+  font-size: 0.75rem;
+}
+
+.pics1,
+.pics2,
+.pics3,
+.pics4 {
+  display: none;
+}
+
+.catering {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.cater-info {
+  flex-grow: 1;
+  align-self: center;
+  margin: 2rem;
+}
+.cater-info p {
+  text-align: justify;
+}
+.catering a {
+  text-align: center;
+}
+
+.cater-img {
+  background-image: url(img/catering.webp);
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+  content: " ";
+  padding: 1rem;
+  min-height: 250px;
+  margin: 1rem;
+}
+
+.contact,
+.location,
+.hrs,
+.map {
+  border-bottom: 2px solid var(--wa);
+  flex: 1;
+  padding: 1rem;
+}
+
+.map {
+  background-image: url(img/aerial.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  padding: 2rem;
+  content: "  ";
+  min-height: 100px;
+}
+
+.footer {
+  text-align: right;
+  padding: 0.5rem;
+  background-color: var(--g1);
+  color: var(--w);
+}
+
+@media only screen and (min-width: 640px) {
+  .logobg {
+    background-image: url(img/butcher.jpg);
+    background-size: cover;
+    background-position: right center;
+    display: flex;
+    justify-content: left;
+    height: 72vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  .logobg img {
+    display: inline-block;
+    background-image: url(img/woodpanel.webp);
+    min-width: 480px;
+    max-width: 33%;
+    height: 100%;
+    padding: 2rem;
+  }
+
+  .colorbar1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .red1 {
+    flex: 3;
+  }
+  .green1 {
+    flex: 1;
+  }
+
+  .colholder {
+    column-count: 1;
+    min-width: max-content;
+  }
+
+  section {
+    min-width: max-content;
+    break-inside: avoid-column;
+    page-break-inside: avoid;
+  }
+
+  .pics1,
+  .pics2,
+  .pics3,
+  .pics4 {
+    display: unset;
+    flex: 1;
+    outline: 1px solid var(--r);
+    background-position: center;
+    background-size: cover;
+    content: " ";
+    min-width: 24%;
+    height: 250px;
+  }
+
+  .pics1 {
+    background-image: url(img/pic11.webp);
+  }
+  .pics2 {
+    background-image: url(img/pic22.webp);
+  }
+  .pics3 {
+    background-image: url(img/pic33.webp);
+  }
+  .pics4 {
+    background-image: url(img/pic44.webp);
+  }
+
+  .cater-info {
+    flex-grow: 1;
+    max-width: 49%;
+  }
+
+  .catering img {
+    flex-grow: 1;
+    max-width: 45%;
+    padding: 1rem;
+  }
+
+  .row-parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .row {
+    flex: 1;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .map,
+  .hrs,
+  .location {
+    border-right: 2px solid var(--wa);
+  }
+}
+
+@media only screen and (min-width: 1079px) {
+  .colholder {
+    column-count: 2;
+    min-width: max-content;
+  }
+  .row-parent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1599px) {
+  .colholder {
+    column-count: 3;
+    min-width: max-content;
+  }
+
+  .catering img {
+    flex-grow: 1;
+    max-width: 30%;
+    padding: 1rem;
+  }
+}
