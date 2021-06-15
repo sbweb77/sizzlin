@@ -164,6 +164,7 @@ a {
 .num {
   max-width: min-content;
   margin-right: 3px;
+  padding-right: .25rem;
   font-weight: bold;
   color: var(--r);
 }
