@@ -181,7 +181,9 @@ a {
   flex:5;
   max-width: fit-content;
   text-align: left;
+    padding-bottom: 0.125rem;
 }
+
 .dash {
   flex: 1;
   background-image: url(img/menudash.png);
