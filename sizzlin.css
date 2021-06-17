@@ -156,7 +156,6 @@ a {
 }
 
 .menu li {
-  /* flex: 24;*/
   list-style: none;
   line-height: 1.25rem;
 }
@@ -178,10 +177,11 @@ a {
 }
 
 .item {
-  flex:5;
+  flex:4;
   max-width: fit-content;
   text-align: left;
     padding-bottom: 0.125rem;
+  margin: 0;
 }
 
 .dash {
@@ -214,7 +214,7 @@ a {
 }
 
 .price {
-  flex:3;
+  flex:2;
   max-width: min-content;
   text-align: right;
   align-self: center;
