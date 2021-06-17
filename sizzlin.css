@@ -101,7 +101,7 @@ a {
 
 .colholder {
   column-count: 1;
-  width: 99vh;
+  min-width: max-content;
    background-image: linear-gradient(
       rgba(255, 255, 255, 0.85),
       rgba(255, 255, 255, 0.85)
@@ -110,8 +110,7 @@ a {
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-
-  padding:0rem;
+  padding:.5rem;
 }
 
 .colholder ::selection {
