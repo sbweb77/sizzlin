@@ -29,8 +29,6 @@ a {
   text-decoration: none;
 }
 
-
-
 .foot-head {
   font-size: 1.75rem;
   margin: 0rem;
@@ -103,9 +101,8 @@ a {
 
 .colholder {
   column-count: 1;
-  min-width: 99vh;
- 
-  background-image: linear-gradient(
+  width: 99vh;
+   background-image: linear-gradient(
       rgba(255, 255, 255, 0.85),
       rgba(255, 255, 255, 0.85)
     ),
