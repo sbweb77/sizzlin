@@ -196,11 +196,6 @@ a {
   outline: 2px solid var(--g);
 }
 
-.specials .dash {
-  background-image: url(img/menudash-w.png);
-  background-position: center;
-}
-
 .specials .num {
   color: var(--g);
 }
