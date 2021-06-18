@@ -357,16 +357,6 @@ a {
     flex: 1;
   }
 
-  .colholder {
-    column-count: 1;
-    min-width: max-content;
-  }
-
-  section {
-    min-width: max-content;
-    break-inside: avoid-column;
-    page-break-inside: avoid;
-  }
 
   .pics1,
   .pics2,
