@@ -101,7 +101,7 @@ a {
 
 .colholder {
   column-count: 1;
-  /*min-width: max-content;*/
+  min-width: min-content;
    background-image: linear-gradient(
       rgba(255, 255, 255, 0.85),
       rgba(255, 255, 255, 0.85)
@@ -290,31 +290,7 @@ a {
 
 @media only screen and (min-width: 640px) {
 
-/*
-  .logobg {
-    background-image: url(img/butcher.jpg);
-    background-size: cover;
-    background-position: right center;
-    display: flex;
-    justify-content: left;
-    height: 72vh;
-    padding: 0;
-    margin: 0;
-  }
-
-  .logobg img {
-    display: inline-block;
-    background-image: url(img/woodpanel.webp);
-    min-width: 480px;
-    max-width: 33%;
-    height: 100%;
-    padding: 2rem;
-  }
-  
-
-  */
-
-  .logobg{
+ .logobg{
     background-image: url(img/butcher.jpg);
   background-size: cover;
   display: flex;
@@ -352,6 +328,10 @@ a {
     flex: 1;
   }
 
+  .colholder {
+  column-count: 1;
+  min-width: max-content;
+  }
 
   .pics1,
   .pics2,
