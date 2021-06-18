@@ -101,7 +101,7 @@ a {
 
 .colholder {
   column-count: 1;
-  min-width: max-content;
+  /*min-width: max-content;*/
    background-image: linear-gradient(
       rgba(255, 255, 255, 0.85),
       rgba(255, 255, 255, 0.85)
