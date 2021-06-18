@@ -148,7 +148,7 @@ a {
 .menu {
   display: flex;
   flex-wrap: wrap;
-  padding: 0rem;
+  padding: 0.125rem;
   text-transform: uppercase;
 }
 
@@ -191,7 +191,6 @@ a {
 
 .specials {
   outline: 2px solid var(--g);
-  padding: 0.125;
 }
 
 .specials .num {
