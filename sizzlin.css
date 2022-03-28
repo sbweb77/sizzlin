@@ -62,6 +62,9 @@ a {
   padding: 2rem;
 }
 
+.logobg img{
+  max-width: 99vw;
+}
 
 
 .tagline {
