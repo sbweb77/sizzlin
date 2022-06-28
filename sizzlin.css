@@ -53,6 +53,10 @@ a {
   color: var(--w);
 }
 
+.download {
+color: var(--r);
+}
+
 .logobg {
   background-image: url(img/woodpanel.webp);
   background-size: cover;
